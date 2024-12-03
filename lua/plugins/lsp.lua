@@ -7,5 +7,7 @@ return {
     {'neovim/nvim-lspconfig'},
     {'hrsh7th/cmp-nvim-lsp'},
     {'hrsh7th/nvim-cmp'},
+    {'nvim-java/nvim-java'},
+    {'m4xshen/autoclose.nvim'},
 }
 
