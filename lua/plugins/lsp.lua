@@ -4,7 +4,6 @@ return {
     },
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
-    {'nvim-java/nvim-java'},
     {'m4xshen/autoclose.nvim'},
     {
         'neovim/nvim-lspconfig',
@@ -25,8 +24,5 @@ return {
             end
         end
     },
-    --{'hrsh7th/cmp-nvim-lsp'},
-    --{'hrsh7th/nvim-cmp'},
-    {'nvim-java/nvim-java'}
 }
 

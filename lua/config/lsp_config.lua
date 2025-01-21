@@ -1,8 +1,4 @@
-
 vim.opt.signcolumn = 'yes'
-
-require('java').setup()
-require('lspconfig').jdtls.setup({})
 
 require("autoclose").setup({
     keys = {
