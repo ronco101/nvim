@@ -6,4 +6,3 @@ vim.opt.expandtab = true
 vim.bo.softtabstop = 4
 vim.cmd("set number")
 vim.cmd("set relativenumber")
-

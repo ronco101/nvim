@@ -1,16 +1,5 @@
 vim.opt.signcolumn = 'yes'
 
-require("autoclose").setup({
-    keys = {
-        ['<'] = {
-            escape = true,
-            close = true,
-            pair = '<>',
-            disabled_filetypes = {},
-        }
-    }
-})
-
 vim.api.nvim_create_autocmd('LspAttach', {
   desc = 'LSP actions',
   callback = function(event)
